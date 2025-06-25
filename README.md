@@ -1,2 +1,2 @@
 # TRCS-201
-The dialy diary training report.
+The daily diary training report.
