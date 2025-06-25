@@ -7,4 +7,7 @@ My day is started with orientation program in the auditorium.Here our core branc
 In lab first i have leared why the most of campanies and the coders use linux over windows?
 
 This is because of the  following reasons:
-
+- Linux is secure than window.
+- Linux is open source.
+- Linux is free , while windows required paid license.
+-  Linux has Large community.
