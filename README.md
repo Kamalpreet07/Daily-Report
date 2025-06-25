@@ -10,4 +10,11 @@ This is because of the  following reasons:
 - Linux is secure than window.
 - Linux is open source.
 - Linux is free , while windows required paid license.
--  Linux has Large community.
+- Linux has Large community
+
+  I also learned about the product based and service based campines.From this i get that google, microsoft, flipcart are product based campanies.Product based campanies are mainly those campanies whose main focus is  in manking the project.They donot make campany projects.
+After that we download three softwares.These are:
+-Microsoft Visual C++ Redistributable latest supported
+-Oracle VirtualBox
+-Ubuntu 24.04.2 LTS
+***
