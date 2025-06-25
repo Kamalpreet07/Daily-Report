@@ -19,3 +19,4 @@ After that we download three softwares.These are:
 - Oracle VirtualBox
 - Ubuntu 24.04.2 LTS
   
+**This is all about the Day 1.*
