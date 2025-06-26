@@ -90,5 +90,6 @@ The most interesting part is cammands which we learn today and then we practice 
 11. whatis: The whatis command displays the header line from the manual section.
 12. mv: Rename and Replace the files.
 
-
 ![Image](https://github.com/user-attachments/assets/1611daf1-2309-449e-9fe2-badd6ecf142b)
+
+Today we learn and enjoy these all commands.
