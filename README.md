@@ -46,7 +46,7 @@ Shell is divided into two categories:
 2. Graphical Shell:
 
 
-
+![Image](https://github.com/user-attachments/assets/8762b5b6-7bde-4069-80a5-b069e0ce952c)
 
 
 Types of shell are:
