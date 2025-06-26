@@ -82,6 +82,7 @@ The most interesting part is cammands which we learn today and then we practice 
 7. touch: Create empty files.
 8. cp: Copy files from one directory to another.
 
+![Image](https://github.com/user-attachments/assets/0f029ab9-8621-4f83-a7d1-e3c7963bfcd4)
 
 
 9. pwd: Displays the current working directory.
