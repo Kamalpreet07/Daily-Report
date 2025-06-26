@@ -55,4 +55,9 @@ Types of shell are:
 - Zsh
 - Fish
 
-  <h3>File Structure:</h3>
+<h3>File Structure:</h3>
+
+![Image](https://github.com/user-attachments/assets/6b933bb7-6f78-4b30-8e0d-ce8f4f14f536)
+
+<h3>Commands:</h3>
+1.ls:Displays information about files in the current directory.
