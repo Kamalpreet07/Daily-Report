@@ -29,9 +29,7 @@ Booting is of two types:
 <h2>Day-2</h2>
 Second of learing linux.Today first revise the previous day work.
 <h3>Kernel:</h3>
-- The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system.
-- Think of it as as Chef working in a hotel. You as a coustmer can't see the chef working but get your order (output).
+ The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system. Think of it as as Chef working in a hotel. You as a coustmer can't see the chef working but get your order (output).
 <h3>Shell:</h3>
-- Shell is a special user program that provides an interface for the user to use operating system services.
-- Using the same scenario, think of shell as a waiter, who takes your order (input) and gives it to the chef (Kernel).
+ Shell is a special user program that provides an interface for the user to use operating system services. Using the same scenario, think of shell as a waiter, who takes your order (input) and gives it to the chef (Kernel).
 
