@@ -1,5 +1,4 @@
-# TRCS-201
-**The daily diary training report.**
+# Daily learning Report
 <h2>Day-1</h2>
 <h3>Orientation:</h3>
 My day is started with orientation program in the auditorium.Here our core branch (CSE) professer Dr.Priyanka introduce us with our department.Then our HOD Mam Dr.Kiran Joti introduce us with the new syllabus scheme.After that we were shifted to our respective labs.
@@ -18,5 +17,21 @@ After that we download three softwares.These are:
 - Microsoft Visual C++ Redistributable latest supported
 - Oracle VirtualBox
 - Ubuntu 24.04.2 LTS
+
+We also learn about booting.Booting is the process of starting up or restarting a computer, which involves initializing hardware, loading the operating system, and preparing the computer for use.
+
+Booting is of two types:
+- Cold boot/hard boot: A state in which a computer is switched on from being switched off is referred to as cold booting. 
+- Warm boot/soft boot: Soft boot or restart method Warm Booting, also called soft boots or restarts, reboots a computer system without shutting it down entirely. 
   
 **This is all about the Day 1.*
+
+<h2>Day-2</h2>
+Second of learing linux.Today first revise the previous day work.
+<h3>Kernl:</h3>
+- The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system.
+- Think of it as as Chef working in a hotel. You as a coustmer can't see the chef working but get your order (output).
+###Shell :
+- Shell is a special user program that provides an interface for the user to use operating system services.
+- Using the same scenario, think of shell as a waiter, who takes your order (input) and gives it to the chef (Kernel).
+
