@@ -33,3 +33,4 @@ Second of learing linux.Today first revise the previous day work.
 <h3>Shell:</h3>
  Shell is a special user program that provides an interface for the user to use operating system services. Using the same scenario, think of shell as a waiter, who takes your order (input) and gives it to the chef (Kernel).
 
+![Image](https://github.com/user-attachments/assets/c678e891-bb10-4bea-8f18-7315c93b2c57)
