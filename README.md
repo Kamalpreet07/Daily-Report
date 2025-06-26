@@ -34,3 +34,10 @@ Second of learing linux.Today first revise the previous day work.
  Shell is a special user program that provides an interface for the user to use operating system services. Using the same scenario, think of shell as a waiter, who takes your order (input) and gives it to the chef (Kernel).
 
 ![Image](https://github.com/user-attachments/assets/c678e891-bb10-4bea-8f18-7315c93b2c57)
+
+Shell is divided into two categories:
+
+1.Command Line Shell:
+![Image](https://github.com/user-attachments/assets/950553f5-2afe-42d8-bdc3-2ed9859fd724)
+
+2.
