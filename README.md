@@ -60,4 +60,9 @@ Types of shell are:
 ![Image](https://github.com/user-attachments/assets/6b933bb7-6f78-4b30-8e0d-ce8f4f14f536)
 
 <h3>Commands:</h3>
-1.ls:Displays information about files in the current directory.
+The most interesting part is cammands which we learn today and then we practice these commands.
+
+1. ls: Displays information about files in the current directory.
+2. whoami: Displays the current users name.
+3. date: A simple but powerful tool used to display the current date and time, as well as set the system date and time
+
