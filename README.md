@@ -38,6 +38,20 @@ Second of learing linux.Today first revise the previous day work.
 Shell is divided into two categories:
 
 1.Command Line Shell:
+
+
 ![Image](https://github.com/user-attachments/assets/950553f5-2afe-42d8-bdc3-2ed9859fd724)
 
-2.
+
+2. Graphical Shell:
+
+
+
+
+
+Types of shell are:
+- BASH
+- Sh
+- Zsh
+- Fish
+  
