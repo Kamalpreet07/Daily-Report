@@ -78,5 +78,13 @@ The most interesting part is cammands which we learn today and then we practice 
 ![Image](https://github.com/user-attachments/assets/86f9e16e-44ce-4b5d-92d1-520e48d43b90)
 
 
+6. cat: Display file contents on terminal.
+7. touch: Create empty files.
+8. cp: Copy files from one directory to another.
 
 
+
+9. pwd: Displays the current working directory.
+10. whereis: View the exact location of any command typed after this command.
+11. whatis: The whatis command displays the header line from the manual section.
+12. mv: Rename and Replace the files.
