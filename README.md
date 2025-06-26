@@ -74,5 +74,8 @@ The most interesting part is cammands which we learn today and then we practice 
 5.mkdir: Creates a directory.
 
 
+![Image](https://github.com/user-attachments/assets/86f9e16e-44ce-4b5d-92d1-520e48d43b90)
+
+
 
 
