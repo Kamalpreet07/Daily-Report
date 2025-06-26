@@ -70,8 +70,9 @@ The most interesting part is cammands which we learn today and then we practice 
 ![Image](https://github.com/user-attachments/assets/28ad5d40-cc7d-45fb-b32c-57b17c829845)
 
 
-4.cd: To navigate between different folders.
-5.mkdir: Creates a directory.
+
+4. cd: To navigate between different folders.
+5. mkdir: Creates a directory.
 
 
 ![Image](https://github.com/user-attachments/assets/86f9e16e-44ce-4b5d-92d1-520e48d43b90)
