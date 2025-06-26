@@ -64,5 +64,15 @@ The most interesting part is cammands which we learn today and then we practice 
 
 1. ls: Displays information about files in the current directory.
 2. whoami: Displays the current users name.
-3. date: A simple but powerful tool used to display the current date and time, as well as set the system date and time
+3. date: A simple but powerful tool used to display the current date and time, as well as set the system date and time.
+
+
+![Image](https://github.com/user-attachments/assets/28ad5d40-cc7d-45fb-b32c-57b17c829845)
+
+
+4.cd: To navigate between different folders.
+5.mkdir: Creates a directory.
+
+
+
 
