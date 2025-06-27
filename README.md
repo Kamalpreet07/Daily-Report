@@ -174,5 +174,42 @@ Redirects the standard input of a command to a file.
 
 ![red](https://github.com/user-attachments/assets/f886583a-b91a-4b44-8348-7f748288a813)
 
+<h3>Shell programming:</h3>
+1.Use of variables:
+
+![code v](https://github.com/user-attachments/assets/244534c4-1544-4961-908d-9382e4c206cc)
+
+
+
+Output:
+
+
+![var](https://github.com/user-attachments/assets/06c266ed-86c6-4d02-a20d-5d9fef89e27a)
+
+
+2.Multiply Table:
+
+
+
+![multi](https://github.com/user-attachments/assets/20f7bd4b-de17-4796-ad98-f34915dade69)
+
+
+Output:
+
+
+![muti](https://github.com/user-attachments/assets/9c0ef3a1-a856-4d68-a6b2-7e53b2d2531d)
+
+
+
+
+3.Comparison of two numbers:
+
+
+![two](https://github.com/user-attachments/assets/0afc7d20-164c-4849-8579-42658080f34e)
+
+
+
+
+![compare](https://github.com/user-attachments/assets/a63e4512-f5a4-40b3-9bbe-62b0f43c21c3)
 
 
