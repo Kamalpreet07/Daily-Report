@@ -164,3 +164,5 @@ Redirects the standard output of a command to a file. If the file exists already
 ![Image](https://github.com/user-attachments/assets/32e696c0-b06f-43e8-9c16-ad52af4036a4)
 
 
+![Image](https://github.com/user-attachments/assets/b11bb354-9174-4f19-a3eb-41e8a0e1d10e)
+
