@@ -94,3 +94,47 @@ The most interesting part is cammands which we learn today and then we practice 
 
 
 Today we learn and enjoy these all commands.
+
+
+<h3>Day-3</h3>
+In  the  third day of training,first we revise previous syllabus.After that we learn about
+<h3>Dual Boot:</h3>
+Dual booting allows a computer to run two different operating systems, enabling users to choose which one to boot into upon startup.
+
+<h3>ISO file:</h3>
+In Linux, an ISO file is a single file containing a complete copy of the data from a CD, DVD, or other optical media, formatted as an ISO 9660 file system. 
+
+<h3>Bare metal installation:</h3>
+It refers to setting up an operating system directly on a physical server's hardware, without any intervening virtualization layer like a hypervisor.
+
+<h3>VMware and Virtual box:</h3>
+VMware is a commercial product known for its enterprise-grade features, performance, and comprehensive support, while VirtualBox is an open-source, free alternative, generally favored for personal use, testing, and development. 
+
+<h3>Partitioning schemes:</h3>
+1. Dividing a hard disk into separate sections.
+2. Each section (partition) acts like an independent disk.
+3. Helps organize data and install multiple OS.
+
+<h3>TYpes:</h3>
+-MBR (Master Boot Record)
+1.Max 4 primary partitions.
+2.Supports up to 2 TB.
+3.Older, used with BIOS.
+4.less flexible
+
+-GPT (GUID Partition Table)
+1.Supports 128+ partitions.
+2.Works with disks >2 TB.
+3.Newer, used with UEFI.
+4.more flexible
+
+<h3>Permissions & Shell programming:</h3>
+<h3>File and directory permissions:</h3>
+chmod (Change mode): It is used to change the access permissions of files and directories.
+
+
+Some different chmod permission notations are:
+-chmod +x test.sh: Gives permission to run the script.
+-chmod 444 test.sh: Changes file to read-only
+
+
