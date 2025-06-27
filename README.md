@@ -115,7 +115,7 @@ VMware is a commercial product known for its enterprise-grade features, performa
 2. Each section (partition) acts like an independent disk.
 3. Helps organize data and install multiple OS.
 
-<h3>TYpes:</h3>
+<h3>Types:</h3>
 -MBR (Master Boot Record)
 1.Max 4 primary partitions.
 2.Supports up to 2 TB.
@@ -135,6 +135,11 @@ chmod (Change mode): It is used to change the access permissions of files and di
 
 Some different chmod permission notations are:
 -chmod +x test.sh: Gives permission to run the script.
--chmod 444 test.sh: Changes file to read-only
+-chmod 444 test.sh: Changes file to read-only.
+
+
+![Image](https://github.com/user-attachments/assets/3b96137b-6247-4b05-ac14-2b6c5a0bbb23)
+
+
 
 
