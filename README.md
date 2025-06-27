@@ -161,4 +161,6 @@ Redirects the standard output of a command to a file. If the file exists already
 
 2. Append Redirection (For stdout): Append the output to the file without compromising the existing data of the file.
 
+![Image](https://github.com/user-attachments/assets/32e696c0-b06f-43e8-9c16-ad52af4036a4)
+
 
