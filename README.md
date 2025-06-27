@@ -118,7 +118,8 @@ VMware is a commercial product known for its enterprise-grade features, performa
 3.Helps organize data and install multiple OS.
 
 <h3>Types:</h3>
-- MBR (Master Boot Record)
+- MBR (Master Boot Record):
+
 1. Max 4 primary partitions.
 
 2. Supports up to 2 TB.
@@ -127,10 +128,10 @@ VMware is a commercial product known for its enterprise-grade features, performa
 
 4. less flexible
 
-- GPT (GUID Partition Table)
+- GPT (GUID Partition Table):
+  
 1. Supports 128+ partitions.
    
-
 2.Works with disks >2 TB.
 
 3.Newer, used with UEFI.
@@ -151,6 +152,13 @@ Some different chmod permission notations are:
 
 ![Image](https://github.com/user-attachments/assets/3b96137b-6247-4b05-ac14-2b6c5a0bbb23)
 
+<h3>Redirection:</h3>
 
+<h3>Types of Redirection:</h3>
+1. Overwrite Redirection (For stdout):
+Redirects the standard output of a command to a file. If the file exists already contain script, it will be overwritten.
+">" standard output.
+
+2. Append Redirection (For stdout): Append the output to the file without compromising the existing data of the file.
 
 
