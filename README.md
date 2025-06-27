@@ -117,16 +117,16 @@ VMware is a commercial product known for its enterprise-grade features, performa
 
 <h3>Types:</h3>
 -MBR (Master Boot Record)
-1.Max 4 primary partitions.
-2.Supports up to 2 TB.
-3.Older, used with BIOS.
-4.less flexible
+1. Max 4 primary partitions.
+2. Supports up to 2 TB.
+3. Older, used with BIOS.
+4. less flexible
 
 -GPT (GUID Partition Table)
-1.Supports 128+ partitions.
-2.Works with disks >2 TB.
-3.Newer, used with UEFI.
-4.more flexible
+1. Supports 128+ partitions.
+2. Works with disks >2 TB.
+3. Newer, used with UEFI.
+4. more flexible
 
 <h3>Permissions & Shell programming:</h3>
 <h3>File and directory permissions:</h3>
@@ -134,8 +134,8 @@ chmod (Change mode): It is used to change the access permissions of files and di
 
 
 Some different chmod permission notations are:
--chmod +x test.sh: Gives permission to run the script.
--chmod 444 test.sh: Changes file to read-only.
+- chmod +x test.sh: Gives permission to run the script.
+- chmod 444 test.sh: Changes file to read-only.
 
 ![Image](https://github.com/user-attachments/assets/984739c7-dd91-490f-a5b7-76f1a458b45a)
 
