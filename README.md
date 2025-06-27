@@ -164,5 +164,15 @@ Redirects the standard output of a command to a file. If the file exists already
 ![Image](https://github.com/user-attachments/assets/045c119f-1ab8-4704-973f-7425fa2a45df)
 
 
+
 ![Image](https://github.com/user-attachments/assets/20ab0b82-15b5-4ade-a8d8-51c3e68b279a)
+
+
+3.Overwrite Redirection (For stdin):
+Redirects the standard input of a command to a file.
+"<" standard input
+
+![red](https://github.com/user-attachments/assets/f886583a-b91a-4b44-8348-7f748288a813)
+
+
 
