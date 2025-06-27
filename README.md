@@ -111,22 +111,22 @@ It refers to setting up an operating system directly on a physical server's hard
 VMware is a commercial product known for its enterprise-grade features, performance, and comprehensive support, while VirtualBox is an open-source, free alternative, generally favored for personal use, testing, and development. 
 
 <h3>Partitioning schemes:</h3>
-1. Dividing a hard disk into separate sections.
-2. Each section (partition) acts like an independent disk.
-3. Helps organize data and install multiple OS.
+- Dividing a hard disk into separate sections.
+- Each section (partition) acts like an independent disk.
+- Helps organize data and install multiple OS.
 
 <h3>Types:</h3>
--MBR (Master Boot Record)
-1. Max 4 primary partitions.
-2. Supports up to 2 TB.
-3. Older, used with BIOS.
-4. less flexible
+- MBR (Master Boot Record)
+- Max 4 primary partitions.
+- Supports up to 2 TB.
+- Older, used with BIOS.
+- less flexible
 
--GPT (GUID Partition Table)
-1. Supports 128+ partitions.
-2. Works with disks >2 TB.
-3. Newer, used with UEFI.
-4. more flexible
+- GPT (GUID Partition Table)
+- Supports 128+ partitions.
+- Works with disks >2 TB.
+- Newer, used with UEFI.
+- more flexible
 
 <h3>Permissions & Shell programming:</h3>
 <h3>File and directory permissions:</h3>
