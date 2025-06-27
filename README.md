@@ -137,6 +137,8 @@ Some different chmod permission notations are:
 -chmod +x test.sh: Gives permission to run the script.
 -chmod 444 test.sh: Changes file to read-only.
 
+![Image](https://github.com/user-attachments/assets/984739c7-dd91-490f-a5b7-76f1a458b45a)
+
 
 ![Image](https://github.com/user-attachments/assets/3b96137b-6247-4b05-ac14-2b6c5a0bbb23)
 
