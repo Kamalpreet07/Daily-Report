@@ -286,6 +286,21 @@ They usually start with a backslash (\) to signal the shell, programming languag
 
 **-e option in echo is used to enable interpretation of escape sequences.*
 
+**Quoting in linux:**
+
+ Quoting in Linux is used in the shell (like bash) to control how special characters are interpreted. It affects how strings and commands are parsed. 
+
+ *Types of Quoting in Linux:*
+
+ | Quote Type                      | Symbol    | Purpose                                                                                  |
+| ------------------------------- | --------- | ---------------------------------------------------------------------------------------- |
+| **Single quotes**               | `' '`     | Prevent **all** interpretation of special characters. Everything is taken **literally**. |
+| **Double quotes**               | `" "`     | Allow variable and command substitution, but prevent word splitting and globbing.        |
+| **Backticks**                   | `` ` ` `` | Used for **command substitution** (older syntax).                                        |
+| **Dollar sign and parentheses** | `$( )`    | Preferred method for **command substitution** (modern syntax).                           |
+| **Escape character**            | `\`       | Escapes a **single character** (including quotes or spaces).                             |
+
+
 **Hardware**
 
 Hardware refers to the physical parts of a computer system — the components you can see and touch. It includes everything from the keyboard and mouse to internal parts like the CPU and memory.
@@ -299,4 +314,53 @@ Hardware refers to the physical parts of a computer system — the components yo
 | **3. Processing Unit**       | Performs **all calculations and tasks**                 | CPU (Central Processing Unit)                |
 | **4. Storage Devices**       | Used to **store data permanently or temporarily**       | Hard Drive (HDD), SSD, USB drive, CD/DVD     |
 | **5. Communication Devices** | Used for **data exchange between computers**            | Modem, Network Interface Card (NIC), Router  |
+
+**Motherboard**
+
+The motherboard is the main printed circuit board (PCB) in a computer or electronic device. It serves as the central backbone that connects and allows communication between all hardware components such as the CPU, memory (RAM), storage devices, power supply, and peripherals.
+
+**Components of Motherboard:**
+
+| **Component**                      | **Function**                                                                                       |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **CPU Socket**                     | Holds the processor (CPU); connects it to the motherboard.                                         |
+| **RAM Slots (DIMM)**               | Slots to install memory modules (RAM).                                                             |
+| **Chipset**                        | Manages data flow between CPU, RAM, and peripherals (divided into Northbridge/Southbridge or SoC). |
+| **BIOS/UEFI Chip**                 | Firmware that initializes hardware and starts the boot process.                                    |
+| **Power Connectors**               | Connect motherboard to the power supply (usually 24-pin and 8-pin connectors).                     |
+| **Expansion Slots (PCIe)**         | For adding graphics cards, sound cards, Wi-Fi cards, etc.                                          |
+| **Storage Connectors (SATA, M.2)** | Connect hard drives and SSDs.                                                                      |
+| **CMOS Battery**                   | Powers the BIOS memory to retain system settings when powered off.                                 |
+| **USB Headers**                    | Connect USB ports on the front panel of the case.                                                  |
+| **Front Panel Connectors**         | For power button, reset button, LED indicators, etc.                                               |
+| **Cooling Fan Headers**            | Connectors for CPU and case fans.                                                                  |
+| **Audio and LAN Chips**            | Provide onboard sound and network connectivity.                                                    |
+| **I/O Ports (Back Panel)**         | Includes USB ports, audio jacks, HDMI/DisplayPort, Ethernet, etc.                                  |
+
+
+
+![image](https://github.com/user-attachments/assets/a2d373cf-9ac0-4e1f-b104-bee55115eb18)
+
+
+**Difference between RAM and Cache Memory**
+
+| Feature           | **RAM (Random Access Memory)**                               | **Cache Memory**                                                           |
+| ----------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------- |
+| **Definition**    | Temporary memory used to store data and programs being used. | Very fast memory that stores frequently used CPU data.                     |
+| **Speed**         | Slower than cache memory.                                    | Faster than RAM (very low latency).                                        |
+| **Location**      | Located on the **motherboard** (separate chip or module).    | Located **inside** or **very close to** the CPU.                           |
+| **Size**          | Larger (usually 4GB to 32GB or more).                        | Much smaller (typically 2MB to 64MB).                                      |
+| **Cost**          | Cheaper per MB compared to cache.                            | More expensive per MB due to higher speed.                                 |
+| **Function**      | Holds active programs and data for CPU access.               | Stores most recently used instructions/data to avoid re-fetching from RAM. |
+| **Access by CPU** | Slower access compared to cache.                             | Direct and immediate access by CPU.                                        |
+| **Volatility**    | Both are volatile (data lost when power is off).             | Both are volatile.                                                         |
+
+
+**Why do we need Cache memory?*
+
+- It helps the CPU work faster and more efficiently by reducing the time it takes to access data.
+- Cache memory is much faster than RAM.
+- It stores frequently used instructions and data, so the CPU doesn’t have to wait for slower RAM.
+- Without cache, the Processor would waste cycles.
+- So it is used to remove mismatch between RAM and Processor speed.
 
