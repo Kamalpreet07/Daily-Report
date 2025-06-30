@@ -259,7 +259,7 @@ Syntax: gunzip [Option] [archive name/file name]
 | `{ }`      | Brace expansion for multiple patterns  | `cp file{1,2,3}.txt /backup/`  | `file1.txt`, `file2.txt`, `file3.txt`      |
 
 
-**What are  escape characters:**
+**[Assignment] What are  escape characters:**
 
 Escape characters are special characters used to represent characters that are otherwise difficult or impossible to type directly in a string — like newline, tab, quotes, or backslashes.
 
