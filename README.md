@@ -213,3 +213,17 @@ Output:
 ![compare](https://github.com/user-attachments/assets/a63e4512-f5a4-40b3-9bbe-62b0f43c21c3)
 
 
+
+
+**Day-4**
+**File Compresion:**
+File compression is the process of reducing the size of a file or group of files so that they take up less storage space. It works by using algorithms to eliminate redundancy in the data.
+
+
+- **Why Use File Compression?**
+- To save storage space on your device or server.
+
+- To speed up file transfers (e.g., via email or the internet).
+
+- To bundle multiple files into a single, smaller package.
+
