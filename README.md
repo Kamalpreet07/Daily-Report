@@ -364,3 +364,27 @@ The motherboard is the main printed circuit board (PCB) in a computer or electro
 - Without cache, the Processor would waste cycles.
 - So it is used to remove mismatch between RAM and Processor speed.
 
+**Difference between RAM and Hard Disk**
+
+| Feature              | **RAM (Random Access Memory)**                         | **Hard Disk (HDD/SSD)**                                            |
+| -------------------- | ------------------------------------------------------ | ------------------------------------------------------------------ |
+| **Type of Memory**   | **Volatile** memory (data is lost when power is off).  | **Non-volatile** memory (data is retained even when power is off). |
+| **Function**         | Temporarily stores data and programs currently in use. | Permanently stores files, software, OS, and data.                  |
+| **Speed**            | Much faster (in nanoseconds to microseconds).          | Slower (in milliseconds), though SSDs are faster than HDDs.        |
+| **Storage Capacity** | Smaller (usually 4GB to 32GB).                         | Larger (typically 500GB to several TBs).                           |
+| **Cost**             | More expensive per GB.                                 | Cheaper per GB.                                                    |
+| **Location**         | Mounted on motherboard as modules.                     |                                                                    |
+
+
+**Process of Booting**
+
+| Step                             | Process Description                                                                                                                                  |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Power On**                  | You press the **power button** on the computer. Power Supply Unit (PSU) activates and sends power to motherboard components.                         |
+| **2. POST (Power-On Self Test)** | BIOS/UEFI runs POST to check if essential hardware like RAM, CPU, and keyboard are working. If something fails, a beep code or message is shown.     |
+| **3. BIOS/UEFI Execution**       | Basic firmware (BIOS/UEFI) initializes system hardware and looks for a **bootable device** (like hard drive, SSD, or USB).                           |
+| **4. Boot Loader Execution**     | BIOS hands control to the **bootloader** (e.g., GRUB for Linux, BOOTMGR for Windows) found in the **Master Boot Record (MBR)** or **EFI partition**. |
+| **5. OS Kernel Loading**         | Bootloader loads the **operating system kernel** (the core of the OS) into RAM.                                                                      |
+| **6. OS Initialization**         | Kernel sets up system services, drivers, and background processes.                                                                                   |
+| **7. User Login**                | Once everything is loaded, the **login screen** or **desktop interface** appears. The system is now ready to use.                                    |
+
