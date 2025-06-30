@@ -259,3 +259,37 @@ Syntax: gunzip [Option] [archive name/file name]
 | `{ }`      | Brace expansion for multiple patterns  | `cp file{1,2,3}.txt /backup/`  | `file1.txt`, `file2.txt`, `file3.txt`      |
 
 
+**What are  escape characters:**
+
+Escape characters are special characters used to represent characters that are otherwise difficult or impossible to type directly in a string — like newline, tab, quotes, or backslashes.
+
+They usually start with a backslash (\) to signal the shell, programming language, or interpreter to treat the next character differently.
+
+| **Escape Character** | **Meaning**                      | **Example**              | **Output**                       |
+| -------------------- | -------------------------------- | ------------------------ | -------------------------------- |
+| `\n`                 | New line                         | `echo -e "Hello\nWorld"` | Hello<br>World                   |
+| `\t`                 | Tab space                        | `echo -e "Hello\tWorld"` | Hello  World                     |
+| `\\`                 | Backslash (`\`)                  | `echo -e "C:\\Users"`    | C:\Users                         |
+| `\"`                 | Double quote (`"`)               | `echo -e "\"Hello\""`    | "Hello"                          |
+| `\'`                 | Single quote (`'`)               | `echo -e "It\'s fine"`   | It's fine                        |
+| `\a`                 | Alert (bell sound)               | `echo -e "\a"`           | (Makes a beep sound, if enabled) |
+| `\b`                 | Backspace                        | `echo -e "Helloo\b"`     | Hello                            |
+| `\r`                 | Carriage return (overwrite line) | `echo -e "123\rAB"`      | AB3 (replaces beginning chars)   |
+
+
+**-e option in echo is used to enable interpretation of escape sequences.*
+
+**Hardware**
+
+Hardware refers to the physical parts of a computer system — the components you can see and touch. It includes everything from the keyboard and mouse to internal parts like the CPU and memory.
+
+**Various components of Hardware:**
+
+| **Category**                 | **Description**                                         | **Examples**                                 |
+| ---------------------------- | ------------------------------------------------------- | -------------------------------------------- |
+| **1. Input Devices**         | Used to **enter data** into the computer                | Keyboard, Mouse, Scanner, Microphone, Webcam |
+| **2. Output Devices**        | Used to **display or output results** from the computer | Monitor, Printer, Speaker, Projector         |
+| **3. Processing Unit**       | Performs **all calculations and tasks**                 | CPU (Central Processing Unit)                |
+| **4. Storage Devices**       | Used to **store data permanently or temporarily**       | Hard Drive (HDD), SSD, USB drive, CD/DVD     |
+| **5. Communication Devices** | Used for **data exchange between computers**            | Modem, Network Interface Card (NIC), Router  |
+
