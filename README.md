@@ -216,7 +216,9 @@ Output:
 
 
 **Day-4**
-**File Compresion:**
+
+**File Compression:**
+
 File compression is the process of reducing the size of a file or group of files so that they take up less storage space. It works by using algorithms to eliminate redundancy in the data.
 
 
@@ -226,4 +228,34 @@ File compression is the process of reducing the size of a file or group of files
 - To speed up file transfers (e.g., via email or the internet).
 
 - To bundle multiple files into a single, smaller package.
+
+**Gzip Command:**
+
+Gzip, short for GNU Zip, is a command-line compression tool commonly found on Linux systems. It utilizes the Deflatecompression algorithm to reduce the size of files, making them more manageable for storage and transmission.
+
+**Syntax**
+
+ gzip [Options] [filenames]
+
+ **To save original file we use -k:**
+ 
+ Compress a file and keep the original file, resulting in both the compressed and original files.
+
+**Gunzip command:**
+
+The gunzip command is used to decompress files that are already compressed in the zip format. Being a part of the GNU project, it compresses the data and appends the .gz extension to the file. Let's check out the syntax below:
+
+Syntax: gunzip [Option] [archive name/file name]
+
+**Wild Cards:** 
+
+| Wildcard   | Meaning                                | Example                        | Matches                                    |
+|------------|----------------------------------------|--------------------------------|--------------------------------------------|
+| `*`        | Matches zero or more characters        | `ls *.txt`                     | `a.txt`, `notes.txt`, `file123.txt`        |
+| `?`        | Matches exactly one character          | `ls file?.txt`                 | `file1.txt`, `fileA.txt` (not `file12.txt`)|
+| `[ ]`      | Matches one character from the set     | `ls file[12].txt`              | `file1.txt`, `file2.txt`                   |
+| `[a-z]`    | Matches one character from a range     | `ls file[a-c].txt`             | `filea.txt`, `fileb.txt`, `filec.txt`      |
+| `[! ]`     | Matches one character **not** in set   | `ls file[!0-9].txt`            | `filea.txt`, `fileX.txt` (not `file1.txt`) |
+| `{ }`      | Brace expansion for multiple patterns  | `cp file{1,2,3}.txt /backup/`  | `file1.txt`, `file2.txt`, `file3.txt`      |
+
 
