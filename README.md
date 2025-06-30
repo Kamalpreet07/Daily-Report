@@ -237,6 +237,9 @@ Gzip, short for GNU Zip, is a command-line compression tool commonly found on Li
 
  gzip [Options] [filenames]
 
+ ![gzip](https://github.com/user-attachments/assets/c02af937-ec1c-4361-94e2-0f4afaa1522e)
+
+
  **To save original file we use -k:**
  
  Compress a file and keep the original file, resulting in both the compressed and original files.
@@ -246,6 +249,10 @@ Gzip, short for GNU Zip, is a command-line compression tool commonly found on Li
 The gunzip command is used to decompress files that are already compressed in the zip format. Being a part of the GNU project, it compresses the data and appends the .gz extension to the file. Let's check out the syntax below:
 
 Syntax: gunzip [Option] [archive name/file name]
+
+
+![gun zip](https://github.com/user-attachments/assets/802251f3-e190-4f83-94d6-802d70f5e4fa)
+
 
 **Wild Cards:** 
 
