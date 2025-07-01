@@ -369,7 +369,8 @@ The motherboard is the main printed circuit board (PCB) in a computer or electro
 | Feature              | **RAM (Random Access Memory)**                         | **Hard Disk (HDD/SSD)**                                            |
 | -------------------- | ------------------------------------------------------ | ------------------------------------------------------------------ |
 | **Type of Memory**   | **Volatile** memory (data is lost when power is off).  | **Non-volatile** memory (data is retained even when power is off). |
-| **Function**         | Temporarily stores data and programs currently in use. | Permanently stores files, software, OS, and data.                  |
+| **Function**
+| Temporarily stores data and programs currently in use. | Permanently stores files, software, OS, and data.                  |
 | **Speed**            | Much faster (in nanoseconds to microseconds).          | Slower (in milliseconds), though SSDs are faster than HDDs.        |
 | **Storage Capacity** | Smaller (usually 4GB to 32GB).                         | Larger (typically 500GB to several TBs).                           |
 | **Cost**             | More expensive per GB.                                 | Cheaper per GB.                                                    |
@@ -387,4 +388,10 @@ The motherboard is the main printed circuit board (PCB) in a computer or electro
 | **5. OS Kernel Loading**         | Bootloader loads the **operating system kernel** (the core of the OS) into RAM.                                                                      |
 | **6. OS Initialization**         | Kernel sets up system services, drivers, and background processes.                                                                                   |
 | **7. User Login**                | Once everything is loaded, the **login screen** or **desktop interface** appears. The system is now ready to use.                                    |
+
+
+# Day-5
+
+
+
 
