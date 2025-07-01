@@ -392,15 +392,53 @@ The motherboard is the main printed circuit board (PCB) in a computer or electro
 
 # Day-5
 
-**HDD:**
-HDD (Hard Disk Drive) is a non-volatile data storage device used in computers and other digital systems. It uses magnetic storage to read and write digital data using one or more rotating disks (platters) coated with magnetic material. Data is accessed by read/write heads that move over the platters.
+#  What is HDD?
 
-**Main Features of HDD:**
+**HDD (Hard Disk Drive)** is a **non-volatile storage device** that stores and retrieves digital data using **magnetic storage**. It contains spinning disks (platters) and read/write heads.
 
-- Long-term storage (even without power)
-- Larger capacity than many other storage devices
-- Slower than SSDs (Solid-State Drives)
-- Mechanical parts (can wear out over time)
+---
+
+##  Key Features
+- Long-term data storage
+- Uses magnetic platters and mechanical arms
+- Slower than SSDs
+- Large storage capacity at low cost
+
+---
+
+##  Types of HDD
+
+| Type                    | Description                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| **PATA (IDE)**          | Older standard, slow, now obsolete                                           |
+| **SATA**                | Common in modern desktops/laptops, faster and more reliable than PATA       |
+| **SCSI**                | Used in servers, supports multiple devices, high performance                |
+| **SSHD (Hybrid Drive)** | Combines SSD speed with HDD capacity                                        |
+| **External HDD**        | Portable, connects via USB, used for backups and additional storage         |
+| **Enterprise HDD**      | High-performance, for servers/data centers, designed for 24/7 operation     |
+
+---
+
+##  HDD Form Factors
+
+| Form Factor | Usage               |
+|-------------|---------------------|
+| 3.5 inch    | Desktop computers   |
+| 2.5 inch    | Laptops, compact PCs|
+
+---
+
+## Note:
+>  **SSD (Solid-State Drive)** is not a type of HDD, but is often compared with HDD due to similar purpose (storage). SSDs have no moving parts and are much faster.
+
+---
+
+##  Want to Learn More?
+You can ask for:
+-  Diagram of HDD internals
+-  Comparison: **HDD vs SSD**
+-  Working principle of HDD
+-  Pros and Cons
 
 
 
