@@ -433,12 +433,7 @@ The motherboard is the main printed circuit board (PCB) in a computer or electro
 
 ---
 
-##  Want to Learn More?
-You can ask for:
--  Diagram of HDD internals
--  Comparison: **HDD vs SSD**
--  Working principle of HDD
--  Pros and Cons
+
 
 
 
