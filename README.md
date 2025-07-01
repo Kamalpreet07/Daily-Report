@@ -551,7 +551,7 @@ Windows tool to check detailed system and crash logs.
 - WinDbg:
 Microsoft Debugging Tool for analyzing dump files |
 
-#BIOS/UEFI Settings and POST Errors:
+# BIOS/UEFI Settings and POST Errors:
 
 | Term                                             | Meaning                                                                                                     |
 | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
