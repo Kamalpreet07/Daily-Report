@@ -1,5 +1,5 @@
 # Daily learning Report
-<h2>Day-1</h2>
+# Day-1
 <h3>Orientation:</h3>
 My day is started with orientation program in the auditorium.Here our core branch (CSE) professer Dr.Priyanka introduce us with our department.Then our HOD Mam Dr.Kiran Joti introduce us with the new syllabus scheme.After that we were shifted to our respective labs.
 <h5>Learning in lab</h5>
@@ -26,7 +26,7 @@ Booting is of two types:
   
 **This is all about the Day 1.*
 
-<h2>Day-2</h2>
+# Day-2
 Second of learing linux.Today first revise the previous day work.
 <h3>Kernel:</h3>
  The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system. Think of it as as Chef working in a hotel. You as a coustmer can't see the chef working but get your order (output).
@@ -96,7 +96,7 @@ The most interesting part is cammands which we learn today and then we practice 
 Today we learn and enjoy these all commands.
 
 
-<h3>Day-3</h3>
+# Day-3
 In  the  third day of training,first we revise previous syllabus.After that we learn about
 <h3>Dual Boot:</h3>
 Dual booting allows a computer to run two different operating systems, enabling users to choose which one to boot into upon startup.
@@ -215,7 +215,7 @@ Output:
 
 
 
-**Day-4**
+# Day-4
 
 **File Compression:**
 
@@ -512,17 +512,13 @@ The motherboard is the main printed circuit board (PCB) in a computer or electro
 
 - Common Printer issues and solutions:
 
-  | **Issue**                                        | **Cause**                                                  | **Fix / Solution**                                                                                                                     |
-| ------------------------------------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| **Printer is not printing**                   | Loose cable, no connection, offline mode, or driver issues |  Check cables and power<br> Ensure printer is **set as default**<br> Restart printer and PC<br> Reinstall or update printer driver |
-| **Printer is offline**                        | Network issue or manual offline setting                    |  Go to **Devices and Printers** → Right-click → Set as **online**<br> Restart router (for Wi-Fi printers)                            |
-| **Paper jam**                                 | Misfed paper or debris inside printer                      |  Open printer cover and **gently remove jammed paper**<br> Check rollers for dust or damage                                          |
-| **Low or empty ink/toner**                    | Cartridge is empty or not recognized                       |  Replace or refill cartridge<br> Reset printer or clean cartridge contacts                                                           |
-| **Slow printing**                             | High-resolution settings or network delays                 |  Lower print quality settings<br> Use **wired connection** if Wi-Fi is unstable                                                      |
-| **Poor print quality**                        | Dirty printhead, clogged nozzles, or low ink               |  Run **print head cleaning** from printer settings<br> Use high-quality paper<br> Replace ink or toner                              |
-               |
-| **Printer queue stuck / multiple jobs stuck** | Print spooler error                                        |  Type `services.msc` → Restart **Print Spooler**<br> Clear print queue from **Control Panel > Devices and Printers**                 |
-| **Blank pages printing**                      | Clogged printhead or empty cartridge                       |  Perform nozzle check and cleaning<br> Ensure cartridges are installed correctly                                                     |
+| **Issue**                   | **Cause**                                   | **Solution**                                                  |
+| --------------------------- | ------------------------------------------- | ------------------------------------------------------------- |
+| **1. Printer not printing** | Loose cables, offline mode, or driver error | Check power and USB/Wi-Fi connection; reinstall/update driver |
+| **2. Printer is offline**   | Network issue or manual setting             | Set printer to online from Control Panel or settings          |
+| **3. Paper jam**            | Misaligned or stuck paper                   | Open printer, carefully remove paper, check for debris        |
+| **4. Low or empty ink**     | Empty or clogged cartridge                  | Replace or refill cartridge; clean printhead                  |
+| **5. Poor print quality**   | Dirty nozzle or wrong paper settings        | Run nozzle                                                    |
 
 
 # BSOD(Blue screen of Death):
