@@ -392,6 +392,15 @@ The motherboard is the main printed circuit board (PCB) in a computer or electro
 
 # Day-5
 
+**HDD:**
+HDD (Hard Disk Drive) is a non-volatile data storage device used in computers and other digital systems. It uses magnetic storage to read and write digital data using one or more rotating disks (platters) coated with magnetic material. Data is accessed by read/write heads that move over the platters.
+
+**Main Features of HDD:**
+
+- Long-term storage (even without power)
+- Larger capacity than many other storage devices
+- Slower than SSDs (Solid-State Drives)
+- Mechanical parts (can wear out over time)
 
 
 
