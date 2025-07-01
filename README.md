@@ -433,7 +433,169 @@ The motherboard is the main printed circuit board (PCB) in a computer or electro
 
 ---
 
+**Common issues and problems in PC:**
+
+-GPU:
+ GPU (Graphics Processing Unit) is a specialized processor designed to handle graphics and visual computations. It’s mainly responsible for rendering images, videos, and animations — especially in games, video editing, and 3D rendering.
+
+-What Causes GPU Failure?
+
+| Cause                | Description                                              |
+| -------------------- | -------------------------------------------------------- |
+| **Overheating**      | Due to dust, poor ventilation, or fan failure.           |
+| **Power Surges**     | PSU instability or electric surge can damage the GPU.    |
+| **Driver Conflicts** | Corrupt or outdated drivers may crash the GPU system.    |
+| **Physical Damage**  | Dropping or improper handling of the GPU.                |
+| **Age/Wear**         | Older GPUs eventually wear out after years of heavy use. |
+
+- What to Do When GPU Fails:
+  
+| Step                                 | Action                                                                                             |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------- |
+|  **Check Connections**             | Reseat the GPU and check cables.                                                                   |
+|  **Clean the Card**                | Remove dust, check fans.                                                                           |
+|  **Switch to Integrated Graphics** | Remove the GPU and boot using onboard graphics to isolate the issue.                               |
+|  **Try GPU on Another PC**         | To confirm if the GPU is really faulty.                                                            |
+|  **Stress Test**                   | Use software like FurMark or GPU-Z (if it still works) to monitor GPU performance and temperature. |
+|  **Reinstall Drivers**             | Use DDU (Display Driver Uninstaller) and reinstall clean drivers.                                  |
+|  **Check Temperature**             | Ensure GPU isn’t overheating. Use tools like MSI Afterburner.                                      |
+
+- If GPU Is Dead:
+1. Warranty? If under warranty, contact the manufacturer for replacement.
+
+2. Out of Warranty? You may need to replace it. Repairs are rarely cost-effective unless it’s a minor issue like fan replacement.
+
+<h3>PSU(Power supply Unit)</h3>:
+ - Symptoms:
+1. PC doesn’t power on
+
+2. Random shutdowns or reboots
+
+3. Burning smell or electrical noise
+
+4. Fans or lights flicker inconsistently
+
+-Diagnosis Steps:
+
+| **Method**                          | **How To Do It**                                                                                  |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Check Power Cable/Outlet**      | Test with a known working outlet and cable.                                                       |
+| **Paperclip Test** (for ATX PSU) | Short green and black wires on 24-pin connector to check if PSU turns on (fans spin). Be careful. |
+| **Test with Multimeter**          | Check voltage output of 12V, 5V, and 3.3V rails.                                                  |
+| **Try Another PSU**              | Swap with a known good PSU to confirm failure.                                                    |
+
+
+- Safety Tips:
+1. Always turn off and unplug the PC before opening the case.
+
+2. Ground yourself to avoid static damage.
+
+3. Don’t attempt PSU repairs unless you're trained — dangerous voltages are involved.
 
 
 
+- Speed low(issue and solution):
+  
+| **Issue**                           | **Explanation**                                           | **Fix / Solution**                                                             |
+| ----------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Too Many Startup Programs**       | Apps launch at boot and slow down performance.            | Press `Ctrl + Shift + Esc` → Go to **Startup** tab → Disable unnecessary apps. |
+| **Low RAM**                         | Not enough memory for multitasking.                       | Upgrade your RAM (e.g., from 4 GB to 8 or 16 GB).                              |
+| **Fragmented Hard Disk (HDD only)** | Slows down file access time.                              | Run **Defragment and Optimize Drives** (for HDDs only).                        |
+| **Old or Failing HDD**              | Mechanical drives become slower with age.                 | Replace with a **Solid State Drive (SSD)**.                                    |
+| **Too Many Background Processes**   | Apps running in the background eat up CPU and memory.     | Use **Task Manager** to identify and end unnecessary processes.                |
+| **Virus or Malware**                | Malicious software slows down system and uses resources.  | Run a full system scan with **Windows Defender** or a good antivirus.          |
+| **Outdated Drivers or Software**    | Compatibility issues and slow performance.                | Update Windows, drivers (especially graphics and chipset), and installed apps. |
+| **Overheating**                     | CPU/GPU slow down to reduce heat (thermal throttling).    | Clean dust from fans, use thermal paste, improve ventilation.                  |
+| **Too Many Browser Tabs**           | Web browsers (especially Chrome) can consume lots of RAM. | Close unused tabs and extensions. Use lighter browsers.                        |
+| **Windows Updates Running**         | Updates in the background can slow things down.           | Let updates complete or schedule them for off-hours.                           |
+| **Old or Underpowered CPU**         | Not enough processing power for modern apps.              | Upgrade to a newer CPU if possible.                                            |
+
+- Common Printer issues and solutions:
+
+  | **Issue**                                        | **Cause**                                                  | **Fix / Solution**                                                                                                                     |
+| ------------------------------------------------ | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **Printer is not printing**                   | Loose cable, no connection, offline mode, or driver issues |  Check cables and power<br> Ensure printer is **set as default**<br> Restart printer and PC<br> Reinstall or update printer driver |
+| **Printer is offline**                        | Network issue or manual offline setting                    |  Go to **Devices and Printers** → Right-click → Set as **online**<br> Restart router (for Wi-Fi printers)                            |
+| **Paper jam**                                 | Misfed paper or debris inside printer                      |  Open printer cover and **gently remove jammed paper**<br> Check rollers for dust or damage                                          |
+| **Low or empty ink/toner**                    | Cartridge is empty or not recognized                       |  Replace or refill cartridge<br> Reset printer or clean cartridge contacts                                                           |
+| **Slow printing**                             | High-resolution settings or network delays                 |  Lower print quality settings<br> Use **wired connection** if Wi-Fi is unstable                                                      |
+| **Poor print quality**                        | Dirty printhead, clogged nozzles, or low ink               |  Run **print head cleaning** from printer settings<br> Use high-quality paper<br> Replace ink or toner                              |
+               |
+| **Printer queue stuck / multiple jobs stuck** | Print spooler error                                        |  Type `services.msc` → Restart **Print Spooler**<br> Clear print queue from **Control Panel > Devices and Printers**                 |
+| **Blank pages printing**                      | Clogged printhead or empty cartridge                       |  Perform nozzle check and cleaning<br> Ensure cartridges are installed correctly                                                     |
+
+
+# BSOD(Blue screen of Death):
+
+BSOD stands for Blue Screen of Death — it’s a critical error screen displayed by Windows when the operating system crashes and can’t continue running safely.
+
+ **What Does It Look Like?**
+ 
+A full blue screen with a sad face :(, an error message (like CRITICAL_PROCESS_DIED or MEMORY_MANAGEMENT), and a stop code.
+
+**What Causes a BSOD?**
+
+| **Cause**                       | **Explanation**                           |
+| --------------------------------| ----------------------------------------- |
+| **Faulty drivers**              | Incompatible or corrupt hardware drivers. |
+| **Hardware failure**            | Bad RAM, GPU, hard drive, or overheating. |
+| **Corrupt system files**        | Damaged Windows files or registry issues. |
+| **Malware infection**           | Can corrupt system processes or files.    |
+| **Windows update issues**       | Failed or incomplete updates.             |
+| **Overclocking or BIOS issues** | Unstable system configuration.            |
+
+**System Crash Analysis:**
+
+After a BSOD, Windows creates a dump file that records what happened before the crash.
+
+**Tools for Analysis:**
+
+- Event Viewer:
+Windows tool to check detailed system and crash logs.
+- WinDbg:
+Microsoft Debugging Tool for analyzing dump files |
+
+#BIOS/UEFI Settings and POST Errors:
+
+| Term                                             | Meaning                                                                                                     |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| **BIOS (Basic Input/Output System)**             | The traditional firmware that initializes hardware during boot before handing over to the OS.               |
+| **UEFI (Unified Extensible Firmware Interface)** | A modern, more advanced replacement for BIOS with a graphical interface, mouse support, and faster booting. |
+
+- Common BIOS/UEFI Settings:
+
+| Setting                         | Description                                                                 |
+| ------------------------------- | --------------------------------------------------------------------------- |
+| **Boot Order**                  | Controls which drive the system tries to boot from first (e.g., SSD, USB).  |
+| **Secure Boot**                 | Prevents unauthorized OS booting; may need to be disabled to install Linux. |
+| **XMP Profile**                 | Enables RAM to run at its rated speed.                                      |
+| **CPU Fan Control**             | Adjusts fan speed and thermal behavior.                                     |
+| **Virtualization (VT-x/AMD-V)** | Enables virtual machines (VMware, VirtualBox).                              |
+| **SATA Mode**                   | Switches between AHCI/IDE modes for SSD/HDD performance.                    |
+
+
+- What is POST?
+
+POST stands for Power-On Self-Test.
+It is a diagnostic test run by the BIOS/UEFI when the PC starts to check hardware (RAM, CPU, GPU, etc.).
+
+- Common POST Errors and Beep Codes:
+
+| **Error**                 | **Cause**                        | **Fix**                                            |
+| ------------------------- | -------------------------------- | -------------------------------------------------- |
+| **No Display / Beeping**  | RAM not detected                 | Reseat or replace RAM                              |
+| **Continuous Beeps**      | Keyboard, GPU, or CPU error      | Check/replace component                            |
+| **No Beep, No Boot**      | PSU or motherboard issue         | Test with another PSU or check board               |
+| **CMOS Checksum Error**   | Battery dead or settings corrupt | Replace CMOS battery (CR2032) and reconfigure BIOS |
+| **Boot Device Not Found** | HDD/SSD not detected             | Check drive connection and boot order              |
+| **Overclocking Failed**   | Unsafe system settings           | Reset BIOS to default or clear CMOS                |
+
+
+- How to Access and Reset BIOS/UEFI:
+
+| Action                    | Key Steps                                                                               |
+| ------------------------- | --------------------------------------------------------------------------------------- |
+| **Access BIOS**           | Press **Del**, **F2**, or **Esc** right after turning on PC                             |
+| **Reset BIOS to Default** | Use “Load Setup Defaults” or remove the **CMOS battery** for 30 seconds                 |
+| **Update BIOS**           | Download latest version from motherboard brand's site and follow instructions carefully |
 
