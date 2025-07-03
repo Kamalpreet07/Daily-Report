@@ -789,3 +789,235 @@ It helps devices talk to each other and access the internet.
 ![image](https://github.com/user-attachments/assets/9e4ced9f-65ec-475c-ba0a-c2721c8cb768)
 
 
+# Day-7
+**Networking Basics**
+
+**Host:**
+
+A host in networking is any device that is connected to a network and can send or receive data.
+
+ **Examples of Hosts:**
+- Desktop or laptop computer
+- Web server
+- Mobile phone connected to Wi-Fi
+- Network printer
+
+  ![image](https://github.com/user-attachments/assets/bf3db5ed-d32c-47c1-999b-822b20fb8cc9)
+
+
+ **What is a Client?**
+
+A client is a computer, device, or software that requests services or resources from another computer called a server over a network.
+
+*Examples:*
+
+- A web browser (like Chrome) requesting a web page.
+-  email app checking your inbox.
+- A mobile app fetching data from a server.
+**Server:**
+
+A server is a device or program that waits for requests and then responds with data or services.
+
+**Examples:**
+
+- A web server hosting a website.
+- A file server storing and sharing files.
+- A database server handling data queries.
+
+  **What is a Network?**
+  
+A network is a system of connected computers, devices, or systems that can communicate, share data, and exchange resources with each other.
+
+**Purpose of Networking:**
+- Share files, printers, and resources
+- Access internet
+- Allow communication (emails, chat, video calls)
+- Centralize data and services (servers)
+
+**IP Address**
+(identity of each host)
+
+An IP address (Internet Protocol address) is a unique numerical identifier assigned to each device connected to a computer network. It serves two primary functions:
+
+- Identification: Determines the identity of a device on the network.
+
+- Location Addressing: Specifies the device's location within the network, enabling data routing.
+
+**Types of IP Addresses**
+1. Public IP Address: Assigned to your network by your Internet Service Provider (ISP), allowing devices within your network to communicate with the internet.
+
+2.Private IP Address: Used within a private network (e.g., home or office) and not routable over the internet. Devices within the same local network communicate using private IPs.
+
+**Difference between IPv4 and IPv6**
+
+| Feature                   | **IPv4**                    | **IPv6**                                  |
+| ------------------------- | --------------------------- | ----------------------------------------- |
+| **Full Form**             | Internet Protocol version 4 | Internet Protocol version 6               |
+| **Address Length**        | 32-bit (4 bytes)            | 128-bit (16 bytes)                        |
+| **Address Format**        | Decimal, separated by dots  | Hexadecimal, separated by colons          |
+| **Example**               | `192.168.0.1`               | `2001:0db8:85a3:0000:0000:8a2e:0370:7334` |
+| **Number of Addresses**   | \~4.3 billion (2³²)         | \~340 undecillion (2¹²⁸)                  |
+| **Header Size**           | 20 bytes                    | 40 bytes                                  |
+| **Security**              | Optional (IPSec optional)   | Built-in (IPSec mandatory)                |
+| **Address Configuration** | Manual or DHCP              | Auto-configuration (Stateless)            |
+| **Broadcasting**          | Supports broadcasting       | No broadcasting (uses multicast instead)  |
+| **Speed & Efficiency**    | Slower due to NAT           | Faster routing, no NAT                    |
+
+
+![image](https://github.com/user-attachments/assets/ec558e96-19e5-4f60-9bca-e0e5ad9724bf)
+
+
+**Binary Notation**
+In binary notation, an IPv4 address is represented as a 32-bit string, divided into four 8-bit segments (octets). Each octet is expressed as an 8-digit binary number.
+
+- Example:
+
+For the IPv4 address 192.168.1.1, the binary representation is:
+
+11000000.10101000.00000001.00000001
+
+Each octet corresponds to the binary equivalent of the decimal numbers:
+
+11000000 → 192
+
+10101000 → 168
+
+00000001 → 1
+
+00000001 → 1
+
+**Dotted Decimal Notation**
+Dotted decimal notation is the most commonly used format for representing IPv4 addresses. It expresses the 32-bit address as four decimal numbers (octets), each ranging from 0 to 255, separated by periods.
+
+- Example:
+
+The IPv4 address 192.168.1.1 is written as:
+
+192.168.1.1
+
+Each decimal number represents an 8-bit binary value:
+
+192 → 11000000
+
+168 → 10101000
+
+1 → 00000001
+
+1 → 00000001
+
+
+**What is Classful Addressing?**
+
+Classful addressing is a method used in IPv4 networks to divide IP addresses into fixed classes (A, B, C, D, E) based on the first few bits of the IP address. Each class has a specific range, purpose, and default subnet mask.
+
+
+ *Purpose:*
+To allocate IP addresses in blocks based on network size (small, medium, large) before Classless addressing (CIDR) was introduced.
+
+
+**IP Address Classes Table:**
+
+| **Class** | **Starting Bits** | **IP Range**                  | **Default Subnet Mask** | **Use**           |
+| --------- | ----------------- | ----------------------------- | ----------------------- | ----------------- |
+| **A**     | 0                 | `1.0.0.0 – 126.255.255.255`   | `255.0.0.0`             | Large networks    |
+| **B**     | 10                | `128.0.0.0 – 191.255.255.255` | `255.255.0.0`           | Medium networks   |
+| **C**     | 110               | `192.0.0.0 – 223.255.255.255` | `255.255.255.0`         | Small networks    |
+| **D**     | 1110              | `224.0.0.0 – 239.255.255.255` | N/A                     | Multicasting      |
+| **E**     | 1111              | `240.0.0.0 – 255.255.255.255` | N/A                     | Research/Reserved |
+
+
+
+![image](https://github.com/user-attachments/assets/93b404b5-0844-4dcc-9baf-a3249a573587)
+
+
+**What Is Subnetting?**
+
+Subnetting is the process of dividing a larger IP network into smaller, more manageable sub-networks, known as subnets. This practice enhances network performance, security, and organization. Each subnet operates as an independent network, allowing for efficient traffic management and improved security measures.
+
+**Why Use Subnetting?**
+- Efficient IP Address Utilization
+- Improved Network Performance
+- Enhanced Security
+- Simplified Network
+
+
+
+![image](https://github.com/user-attachments/assets/dec06fa4-aa6f-418d-be0d-367b1cc27b2e)
+
+
+
+**SUBNET MASK**
+
+A subnet mask is a 32-bit number used to divide an IP address into network and host parts.
+
+**Purpose**
+
+- It determines which part of the IP address refers to the network and which part refers to the host.
+- Helps routers and devices identify the subnet to which an IP belongs.
+
+**Format**
+
+- Written in the same format as an IPv4 address (four decimal octets).
+- Example: 255.255.255.0
+
+**Network IP Address**
+
+The Network IP Address identifies the network itself and is used to route packets to the correct network.
+
+Calculation: Perform a bitwise AND operation between the IP address and the subnet mask.
+
+Example: For 192.168.1.65/27, the network address is 192.168.1.64.
+
+**Broadcast IP Address**
+
+The Broadcast IP Address is used to send data to all devices on a subnet simultaneously.
+
+Calculation: Invert the subnet mask to get the wildcard mask, then perform a bitwise OR operation between the IP address and the wildcard mask.
+
+Example: For 192.168.1.65/27, the broadcast address is 192.168.1.95
+
+**CIDR (Classless Inter-Domain Routing):**
+
+Modern method for IP allocation and routing, replacing classful addressing with more flexible network sizing (e.g., /24).
+
+**Types of Cables**
+- **Twisted Pair:**
+- Types: Shielded (STP) and Unshielded (UTP).
+- Use: LANs (Ethernet).
+
+- **Coaxial:**
+- Use: TV networks, older computer networks.
+
+- **Fiber-Optic:**
+- Use: High-speed networks, long distances (most commonly used today).
+
+
+**MAC (Media Access Control Address)**
+
+- Nature: A unique, 12-character hexadecimal (alphanumeric) attribute used to identify individual electronic devices on a network.
+- Distinction from IP Address:
+- MAC Address: Identifies the physical location of a device within a local network. It's like your permanent home address. The manufacturer provides it.
+- IP Address: Signifies the device's global or internet-accessible identity. It's more like a temporary vacation rental address, changing depending on your network connection.
+
+**DNS (Domain Name System):**
+It is a naming system for computers, service etc connected to the Internet or a private network. It translates domain names (www.google.com) into machine-readable IP addresses (172.217.160.142).
+
+
+**Boardcast , Multicast and Unicast**
+
+| **Type**      | **Communication** | **Target Devices**           | **IP Range / Address**               | **Example Use**             |
+| ------------- | ----------------- | ---------------------------- | ------------------------------------ | --------------------------- |
+| **Unicast**   | One-to-One        | Single specific device       | Any valid unicast IP address         | Web browsing, Email         |
+| **Broadcast** | One-to-All        | All devices in local network | `255.255.255.255` (IPv4 only)        | ARP request, DHCP discovery |
+| **Multicast** | One-to-Group      | Selected group of devices    | `224.0.0.0 – 239.255.255.255` (IPv4) | Live video streaming, IPTV  |
+
+
+**Default Gateway**
+
+A default gateway is like the door your device uses to go outside your local network (like your home Wi-Fi) to reach the internet or other networks.
+
+*How it Works?*
+
+- Your computer wants to go to Google.
+- It sends the request to the default gateway.
+- The gateway/router sends it to the internet to find Google.
