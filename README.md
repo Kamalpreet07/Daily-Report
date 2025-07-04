@@ -1021,3 +1021,9 @@ A default gateway is like the door your device uses to go outside your local net
 - Your computer wants to go to Google.
 - It sends the request to the default gateway.
 - The gateway/router sends it to the internet to find Google.
+- 
+
+
+
+<img width="614" alt="image" src="https://github.com/user-attachments/assets/c3fd29d7-df5c-4eb2-95e0-0eb3b9e74ec5" />
+
