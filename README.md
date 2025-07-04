@@ -1021,9 +1021,178 @@ A default gateway is like the door your device uses to go outside your local net
 - Your computer wants to go to Google.
 - It sends the request to the default gateway.
 - The gateway/router sends it to the internet to find Google.
-- 
+
+
+# Day-8
+# Networking Notes
+
+## DHCP (Dynamic Host Configuration Protocol)
+
+- A network protocol that automatically assigns IP addresses to devices in a network.
+- Removes the need for manual IP configuration.
+- Helps devices connect easily without user intervention.
+
+---
+
+## Network Command: `ping`
+
+**Simple Meaning:**
+- It's like asking another device: *"Hey, are you there?"*
+- Used to check if a computer, server, or website is reachable.
+
+**Technical Meaning:**
+- Sends ICMP (Internet Control Message Protocol) Echo Request packets to a target host.
+- If a reply is received → the host is reachable.
+- If no reply → the host may be offline or blocked.
+
+**Syntax:**
+```
+ping <website_address>
+```
+
+**Example:**
+```
+ping youtube.com
+```
+
+**To stop ping:**
+- Press `Ctrl + C` in the terminal or command prompt.
+
+---
+
+## Loopback Address: `127.0.0.1`
+
+- Refers to **your own computer**.
+- Used to test your own network setup.
+- Like sending a letter to yourself to see if your mailbox works.
 
 
 
 <img width="614" alt="image" src="https://github.com/user-attachments/assets/c3fd29d7-df5c-4eb2-95e0-0eb3b9e74ec5" />
+
+
+
+## Network Command: `traceroute` (Windows: `tracert`)
+
+**Purpose:**
+- Displays the **exact path** that data takes from your computer to a target website or server.
+- Shows all the intermediate **hops** (routers) that your data passes through.
+
+**Each hop** = one router in the path.
+
+**Syntax:**
+- On **Linux/macOS**:
+  ```
+  traceroute <hostname_or_IP_address>
+  ```
+- On **Windows**:
+  ```
+  tracert <hostname_or_IP_address>
+  ```
+
+**Note on Output:**
+- If you see `* * *` (asterisks), it means that particular router **did not respond** to the request.
+
+**Example:**
+```
+tracert youtube.com
+```
+
+**Use Case:**
+- Helps diagnose network routing issues or delays in connectivity.
+
+
+
+<img width="607" alt="image" src="https://github.com/user-attachments/assets/c160c94d-1553-4b39-b90b-edf767e84815" />
+
+
+
+## Network Command: `ipconfig` (Windows) / `ifconfig` (macOS/Linux)
+
+### `ipconfig` (Windows)
+
+**Purpose:**
+- Displays the current **network configuration** of your Windows PC.
+
+**Details it shows:**
+- IP address
+- Subnet mask
+- Default gateway
+- DNS servers
+- Network adapter status
+
+**Syntax:**
+```
+ipconfig
+```
+
+**Additional Usage:**
+- To release IP: 
+  ```
+  ipconfig /release
+  ```
+- To renew IP:
+  ```
+  ipconfig /renew
+  ```
+
+---
+
+### `ifconfig` (macOS/Linux)
+
+**Purpose:**
+- Similar to `ipconfig`, used to view or configure network interfaces.
+
+**Syntax:**
+```
+ifconfig
+```
+
+**Note:** On newer Linux systems, `ifconfig` is deprecated and replaced by:
+```
+ip a
+```
+
+**Use Case:**
+- Check current IP settings
+- Troubleshoot network issues
+
+
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/00047311-6337-4334-89db-11a3f1fc095e" />
+
+
+
+## Ethernet
+
+**Definition:**
+- Ethernet is a wired networking technology used to connect devices using a physical cable, allowing them to communicate or access the internet.
+
+### How It Works:
+1. Plug one end of an Ethernet cable into your PC's Ethernet port.
+2. Plug the other end into a modem or router.
+3. Your PC can now connect to the network or internet.
+
+---
+
+## Ethernet vs. Wi-Fi
+
+| **Feature**   | **Ethernet**                       | **Wi-Fi**                             |
+|---------------|------------------------------------|----------------------------------------|
+| Signal        | Through cable (copper/fiber)       | Through air (radio waves)              |
+| Speed         | Faster                             | Varies, can be slower than wired       |
+| Stability     | More stable                        | Can be affected by walls, distance     |
+| Security      | More secure                        | Less secure                            |
+| Mobility      | No (wired)                         | Yes (wireless mobility)                |
+
+---
+
+## Comparison of Network Types
+
+| **Network Type** | **Definition**                                                         | **Type**                  |
+|------------------|------------------------------------------------------------------------|---------------------------|
+| Ethernet         | A specific wired technology for local area networking.                 | LAN Technology (Wired)    |
+| Wi-Fi            | A specific wireless technology for local area networking.              | LAN Technology (Wireless) |
+| LAN              | A network within a limited area (e.g., home, office).                  | Local Network             |
+| WAN              | A network over a large geographical area, connects multiple LANs.      | Wide Network              |
+| Internet         | A global system of interconnected networks using the IP protocol.      | Global WAN                |
 
