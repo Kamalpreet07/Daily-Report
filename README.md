@@ -1068,9 +1068,6 @@ ping youtube.com
 
 
 
-<img width="614" alt="image" src="https://github.com/user-attachments/assets/c3fd29d7-df5c-4eb2-95e0-0eb3b9e74ec5" />
-
-
 
 ## Network Command: `traceroute` (Windows: `tracert`)
 
@@ -1103,7 +1100,6 @@ tracert youtube.com
 
 
 
-<img width="607" alt="image" src="https://github.com/user-attachments/assets/c160c94d-1553-4b39-b90b-edf767e84815" />
 
 
 
@@ -1155,11 +1151,7 @@ ip a
 
 **Use Case:**
 - Check current IP settings
-- Troubleshoot network issues
-
-
-<img width="491" alt="image" src="https://github.com/user-attachments/assets/00047311-6337-4334-89db-11a3f1fc095e" />
-
+- Troubleshoot network issue
 
 
 ## Ethernet
