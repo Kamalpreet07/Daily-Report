@@ -1188,3 +1188,97 @@ ip a
 | WAN              | A network over a large geographical area, connects multiple LANs.      | Wide Network              |
 | Internet         | A global system of interconnected networks using the IP protocol.      | Global WAN                |
 
+
+# Day-9
+
+# HTML Overview
+
+## What is HTML?
+- **HTML** stands for **HyperText Markup Language** — it’s used to define the structure of web pages.
+- It's not a programming language, but a **markup language**.
+- Files are saved with a **`.html`** extension.
+- HTML uses **tags** to build the framework of a webpage.
+
+---
+
+## Role of HTML
+- Builds the **layout** of a website.
+- Displays content through tags like:
+  - Headings (`<h1>` to `<h6>`)
+  - Paragraphs (`<p>`)
+  - Images (`<img>`)
+  - Hyperlinks (`<a>`)
+- It works with:
+  - **CSS** for design and appearance
+  - **JavaScript** for functionality and interaction
+
+---
+
+## How Browsers Process HTML
+1. Browser loads the `.html` file.
+2. Reads the content line by line.
+3. Creates a **DOM (Document Object Model)** from tags.
+4. Converts tags into visible elements.
+5. Applies styles (CSS) and behavior (JavaScript).
+
+**Example:**
+```html
+<h1>Hello</h1>
+```
+This will show **Hello** as a large heading.
+
+---
+
+## Basic HTML Document Format
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Page</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <p>This is my first webpage.</p>
+  </body>
+</html>
+```
+
+---
+
+## Key Tags and Uses
+
+| Tag               | Purpose                                   |
+|------------------|-------------------------------------------|
+| `<!DOCTYPE html>` | Declares HTML5                            |
+| `<html>`          | Root of the webpage                       |
+| `<head>`          | Contains metadata and page info           |
+| `<title>`         | Sets the browser tab title                |
+| `<body>`          | Holds the content visible to users        |
+| `<h1>`            | Main heading                              |
+| `<p>`             | Paragraph block                           |
+
+---
+
+## HTML Document Tree (Structure)
+```
+<!DOCTYPE html>      → Declares HTML5 document
+<html>               → Root element
+ ├─ <head>           → Metadata section
+ │   └─ <title>      → Page title
+ └─ <body>           → Visible content
+     ├─ <h1>         → Heading
+     └─ <p>          → Paragraph
+</html>
+```
+
+---
+
+## Summary
+- HTML defines the **content and structure** of web pages.
+- Browsers convert it into visible layouts using the **DOM**.
+- Tags are often written in **opening/closing pairs**.
+- A typical HTML page includes:
+  - `<!DOCTYPE>`
+  - `<html>`
+  - `<head>`
+  - `<body>`
