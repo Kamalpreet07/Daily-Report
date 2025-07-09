@@ -1402,9 +1402,9 @@ Semantic HTML uses tags that clearly describe the meaning of the content inside 
 
 | Tag        | Meaning / Purpose                                 |
 |------------|---------------------------------------------------|
-| <header>   | Top section of a page (logo, title, menu)         |
-| <footer>   | Bottom section (copyright, contact)               |
-| <nav>      | Contains navigation links                         |
-| <section>  | Thematic content section                          |
-| <article>  | Independent, self-contained content               |
+| header     | Top section of a page (logo, title, menu)         |
+| footer     | Bottom section (copyright, contact)               |
+| nav        | Contains navigation links                         |
+| section    | Thematic content section                          |
+| article    | Independent, self-contained content               |
 
