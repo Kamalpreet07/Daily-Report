@@ -1282,3 +1282,69 @@ This will show **Hello** as a large heading.
   - `<html>`
   - `<head>`
   - `<body>`
+ 
+##  Day 10: Introduction to HTML and Web Basics
+
+# What is HTML?
+
+HTML (HyperText Markup Language) is used to structure content on the web using elements called **tags** that browsers interpret and display.
+
+---
+
+# Essential HTML Tags
+
+# 1. Headings
+
+```html
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+
+- <h1> is the largest heading.
+- <h6> is the smallest.
+
+2.  Paragraphs
+
+<p>This is a paragraph of text.</p>
+
+Used to group sentences or text blocks together.
+
+3. Lists
+
+- Unordered List(bullets)
+
+<ul>
+  <li>Apple</li>
+  <li>Banana</li>
+</ul>
+
+- Ordered List (numbered)
+
+<ol>
+  <li>First Step</li>
+  <li>Second Step</li>
+</ol>
+
+4. Hyperlinks
+
+<a href="https://www.google.com">Visit Google</a>
+
+Used for navigation to other pages or websites.
+
+5. Images
+
+<img src="image.jpg" alt="Description of image">
+
+- src specifies image path.
+- alt provides alternative text.
+
+<h2>Quick Notes</h2>
+- Tags are enclosed in angle brackets: < >.
+- Some tags require closing (<p></p>), others are self-closing (<img>).
+- HTML is not case-sensitive but use lowercase for best practices.
+
+
+# Day - 11
+ Forms and Semantic HTML
+📝 HTML Forms
+HTML forms are used to collect user input and send it to a server.
+
