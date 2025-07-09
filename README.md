@@ -1311,4 +1311,5 @@ Headings are used to define **titles and subtitles** on a web page. HTML provide
 <h5>This is Heading 5</h5>
 <h6>This is Heading 6</h6>
 
-
+- HTML <p> Tag (Paragraph Tag)
+The <p> tag in HTML is used to define a paragraph of text. It is one of the most commonly used tags in web development and helps in structuring the textual content on a webpage.
