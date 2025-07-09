@@ -1305,7 +1305,7 @@ Headings are used to define **titles and subtitles** on a web page. HTML provide
 
 <h1></h1> to <h6></h6>
 
-# Paragraphs
+# 2.Paragraphs
 
 The <p> tag in HTML is used to define a paragraph of text. It is one of the most commonly used tags in web development and helps in structuring the textual content on a webpage.
 
@@ -1313,5 +1313,93 @@ The <p> tag in HTML is used to define a paragraph of text. It is one of the most
 <p>This is a paragraph.</p>
 
 
+# 3.Links
+
+The <a> tag in HTML is used to create hyperlinks, which allow users to navigate from one page to another — either on the same website or to external websites.
+
+*Syntax*
+
+<a href="https://www.example.com">Visit Example</a>
+
+- href stands for hypertext reference and holds the URL of the page the link should go to.
+
+- The clickable text appears between the opening and closing <a> tags.
+
+# 4.List
+
+- HTML provides two main types of lists:
+
+- Unordered Lists (<ul>) – Items with bullet points
+
+- Ordered Lists (<ol>) – Items with numbers
+- You can also use Definition Lists (<dl>) for terms and descriptions.
+
+*Syntax*
+1. unOrdered list(bullets)
+
+  <ul>
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>Orange</li>
+</ul>
+
+2. Ordered List
+
+  <ol>
+  <li>First Step</li>
+  <li>Second Step</li>
+  <li>Third Step</li>
+</ol>
 
 
+# 5. Image
+
+The <img> tag is used in HTML to embed images into a web page. It is a self-closing tag, meaning it doesn't need a closing tag.
+
+*Syntax*
+
+<img src="path-to-image.jpg" alt="Description of the image">
+
+- src (source): Specifies the URL or path of the image file.
+- alt (alternative text): Describes the image if it fails to load or for screen readers (important for accessibility).
+
+
+
+## Day-11
+
+An HTML form is used to collect user input and send it to a server for processing. Forms contain various types of input elements like text fields, radio buttons, checkboxes, and buttons.
+
+*Syntax* 
+
+<form action="submit.php" method="post">
+  <!-- Form elements go here -->
+</form>
+
+
+- action – URL where form data is sent after submission.
+- method – HTTP method (GET or POST) used to send the data.
+
+| Type       | Purpose                           | Example                   |
+| ---------- | --------------------------------- | ------------------------- |
+| `text`     | Single-line text input            | `<input type="text">`     |
+| `password` | Concealed input                   | `<input type="password">` |
+| `email`    | Email input with validation       | `<input type="email">`    |
+| `number`   | Numeric input                     | `<input type="number">`   |
+| `radio`    | Select one from multiple options  | `<input type="radio">`    |
+| `checkbox` | Select multiple options           | `<input type="checkbox">` |
+| `submit`   | Submit the form                   | `<input type="submit">`   |
+| `reset`    | Clear all form fields             | `<input type="reset">`    |
+| `file`     | Upload a file                     | `<input type="file">`     |
+| `date`     | Pick a date                       | `<input type="date">`     |
+| `hidden`   | Hidden value not visible to users | `<input type="hidden">`   |
+
+
+
+# Semantic HTML
+**What is Semantic HTML?**
+
+Semantic HTML uses tags that clearly describe the meaning of the content inside them. It improves:
+
+- Code readability
+- Accessibility
+- SEO (Search Engine Optimization)
