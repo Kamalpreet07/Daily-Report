@@ -1301,10 +1301,6 @@ Headings are used to define **titles and subtitles** on a web page. HTML provide
 
 ---
 
-# Syntax
-
-<h1></h1> to <h6></h6>
-
 # 2.Paragraphs
 
 The <p> tag in HTML is used to define a paragraph of text. It is one of the most commonly used tags in web development and helps in structuring the textual content on a webpage.
@@ -1356,10 +1352,7 @@ The <a> tag in HTML is used to create hyperlinks, which allow users to navigate 
 
 The <img> tag is used in HTML to embed images into a web page. It is a self-closing tag, meaning it doesn't need a closing tag.
 
-*Syntax*
-
-<img src="path-to-image.jpg" alt="Description of the image">
-
+<img scr ="" alt=">
 - src (source): Specifies the URL or path of the image file.
 - alt (alternative text): Describes the image if it fails to load or for screen readers (important for accessibility).
 
@@ -1403,3 +1396,15 @@ Semantic HTML uses tags that clearly describe the meaning of the content inside 
 - Code readability
 - Accessibility
 - SEO (Search Engine Optimization)
+
+
+*Common Semantic tags*
+
+  | Tag        | Meaning / Purpose                                 |
+|------------|---------------------------------------------------|
+| <header>   | Top section of a page (logo, title, menu)         |
+| <footer>   | Bottom section (copyright, contact)               |
+| <nav>      | Contains navigation links                         |
+| <section>  | Thematic content section                          |
+| <article>  | Independent, self-contained content               |
+
