@@ -1400,7 +1400,7 @@ Semantic HTML uses tags that clearly describe the meaning of the content inside 
 
 *Common Semantic tags*
 
-  | Tag        | Meaning / Purpose                                 |
+| Tag        | Meaning / Purpose                                 |
 |------------|---------------------------------------------------|
 | <header>   | Top section of a page (logo, title, menu)         |
 | <footer>   | Bottom section (copyright, contact)               |
