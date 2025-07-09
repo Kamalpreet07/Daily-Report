@@ -1295,56 +1295,18 @@ HTML (HyperText Markup Language) is used to structure content on the web using e
 
 # 1. Headings
 
+ # HTML Headings
+
+Headings are used to define **titles and subtitles** on a web page. HTML provides six levels of headings, from `<h1>` to `<h6>`, where `<h1>` is the most important and largest, and `<h6>` is the least important and smallest.
+
+---
+
+# Syntax
+
 ```html
-<h1>Main Heading</h1>
-<h2>Subheading</h2>
-
-- <h1> is the largest heading.
-- <h6> is the smallest.
-
-2.  Paragraphs
-
-<p>This is a paragraph of text.</p>
-
-Used to group sentences or text blocks together.
-
-3. Lists
-
-- Unordered List(bullets)
-
-<ul>
-  <li>Apple</li>
-  <li>Banana</li>
-</ul>
-
-- Ordered List (numbered)
-
-<ol>
-  <li>First Step</li>
-  <li>Second Step</li>
-</ol>
-
-4. Hyperlinks
-
-<a href="https://www.google.com">Visit Google</a>
-
-Used for navigation to other pages or websites.
-
-5. Images
-
-<img src="image.jpg" alt="Description of image">
-
-- src specifies image path.
-- alt provides alternative text.
-
-<h2>Quick Notes</h2>
-- Tags are enclosed in angle brackets: < >.
-- Some tags require closing (<p></p>), others are self-closing (<img>).
-- HTML is not case-sensitive but use lowercase for best practices.
-
-
-# Day - 11
- Forms and Semantic HTML
-📝 HTML Forms
-HTML forms are used to collect user input and send it to a server.
-
+<h1>This is Heading 1</h1>
+<h2>This is Heading 2</h2>
+<h3>This is Heading 3</h3>
+<h4>This is Heading 4</h4>
+<h5>This is Heading 5</h5>
+<h6>This is Heading 6</h6>
