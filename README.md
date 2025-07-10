@@ -1408,3 +1408,33 @@ Semantic HTML uses tags that clearly describe the meaning of the content inside 
 | section    | Thematic content section                          |
 | article    | Independent, self-contained content               |
 
+
+
+# Day-11
+**What is CSS?**
+- CSS stands for Cascading Style Sheets.
+- It is the language used to style and design the layout of web pages written in HTML.
+
+**Why CSS is used?**
+
+CSS controls the look and feel of the website:
+
+- Colors
+- Fonts
+- Layouts
+- Spacing
+- Borders
+- Animations
+- Responsive design (mobile-friendly)
+
+**Types of CSS**
+
+| Feature           | **Inline CSS**                 | **Internal CSS**                        | **External CSS**                      |
+| ----------------- | ------------------------------ | --------------------------------------- | ------------------------------------- |
+| **Where written** | Inside HTML tag using `style`  |Inside `<style>` tag in `<head>`        |In a separate `.css` file               |
+| **Syntax**        | `style="color: red;"`          |<style> h1 { color: red; } </style>`    | 1 { color: red; }`                     |
+| **Scope**         | Affects **only one** element   |Affects **the entire page**             |Can affect **multiple pages**           |
+| **Reusability**   | Not reusable                   |Only works in one HTML page             |Reusable across many pages              |
+| **Maintenance**   | Hard to maintain               |Medium (if too much CSS in one file)    | Easy to maintain and update            |
+| **Best for**      | Small changes or quick testing |Styling a single page                   |Styling full websites                   |
+| **Performance**   | Slower for large project   s   |Okay for small sites                    |Better performance for big websites     |
