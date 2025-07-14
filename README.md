@@ -1410,7 +1410,7 @@ Semantic HTML uses tags that clearly describe the meaning of the content inside 
 
 
 
-# Day-11
+# Day-12
 **What is CSS?**
 - CSS stands for Cascading Style Sheets.
 - It is the language used to style and design the layout of web pages written in HTML.
@@ -1438,3 +1438,164 @@ CSS controls the look and feel of the website:
 | **Maintenance**   | Hard to maintain               |Medium (if too much CSS in one file)    | Easy to maintain and update            |
 | **Best for**      | Small changes or quick testing |Styling a single page                   |Styling full websites                   |
 | **Performance**   | Slower for large project   s   |Okay for small sites                    |Better performance for big websites     |
+
+
+# Day-13
+
+**What is Git?**
+
+Git is a powerful distributed version control system that helps developers keep track of changes in their code over time. Whether you're working alone or in a team, Git makes managing versions, collaborating, and backing up code much easier.
+
+**Why Use Version Control?**
+Here’s why version control (especially with Git) is essential:
+
+- Track Progress: Git records every change, allowing you to go back to previous versions if needed.
+
+- Collaborate Smoothly: Multiple developers can work on the same project without overwriting each other’s changes.
+
+- Secure Backup: Your code is stored safely—both locally and remotely.
+- Branch & Test: Try out new features or ideas on separate branches without affecting the main project.
+- Open Source & Free: Git is completely free and widely supported.
+
+**Git Architecture Explained**
+Git works using three main components:
+
+1. Repository (Repo)
+- This is where Git tracks everything about your project.
+- Local Repository: Exists on your own computer.
+- Remote Repository: Stored online (e.g., on GitHub, GitLab, Bitbucket) for sharing and backup.
+
+<img width="692" height="454" alt="image" src="https://github.com/user-attachments/assets/0390fc66-ea56-40a0-946a-d509be75c1fb" />
+
+
+**Getting Started with Git (Command Line Guide)**
+- Step 1: Set Up Your Project
+You can either create a new Git repository or clone an existing one from platforms like GitHub.
+
+
+2. Working Tree (or Working Directory)
+- This is the current set of files you see and work on.
+- It reflects the latest version you’ve checked out.
+- You write, edit, and test code here before committing it.
+
+3. Index (Staging Area)
+- A temporary area used to prepare changes before committing.
+- You use git add to stage changes.
+- Lets you control exactly what goes into your next commit.
+- Acts like a "review zone" before saving into the repository.
+
+**Cloning a Remote Repository**
+- Copy the Repository URL
+
+- Go to the GitHub project page
+
+- Click on the "Code" button and copy the link (usually ends in .git)
+
+- Open Git Bash or Terminal on your computer
+
+- Run the clone command:
+
+git clone <repository-link>
+
+git clone https://github.com/username/project.git
+
+- Navigate into the project directory:
+
+cd project
+
+
+<img width="599" height="384" alt="Screenshot 2025-07-11 091046" src="https://github.com/user-attachments/assets/333d2bd2-1f18-48ae-8b2e-e056f3af9530" />
+
+
+<img width="930" height="325" alt="Screenshot 2025-07-11 091425" src="https://github.com/user-attachments/assets/199e0f1f-6a65-41a3-8344-a58451a3632b" />
+
+
+<img width="413" height="119" alt="Screenshot 2025-07-11 214000" src="https://github.com/user-attachments/assets/6feb5028-02af-4f13-a941-0ef8a6b8a67e" />
+
+
+**Check Git Status**
+Use this to see changes or file status:
+*syntax*
+
+git status
+
+
+<img width="317" height="95" alt="Screenshot 2025-07-13 191148" src="https://github.com/user-attachments/assets/080626ca-871c-41a8-9d5e-bd54e4a173ec" />
+
+
+**Create a New File**
+
+cd filename
+
+<img width="277" height="144" alt="Screenshot 2025-07-13 115837" src="https://github.com/user-attachments/assets/bddb911b-c448-497b-a2a3-0d6249e9671e" />
+
+
+**Edit the File**
+- Edit using nano or VS Code or Notepad:
+*syntax:*
+nano index.html
+
+<img width="275" height="98" alt="Screenshot 2025-07-13 120320" src="https://github.com/user-attachments/assets/0c712c8f-6fc1-448d-a699-6921e9d58e59" />
+
+<img width="211" height="146" alt="Screenshot 2025-07-13 120240" src="https://github.com/user-attachments/assets/569d514b-4027-4aa7-8fdf-6d0273792efa" />
+
+**Stage the File**
+- Stage your file using:
+*syntax:*
+
+git add index.html
+
+<img width="301" height="123" alt="Screenshot 2025-07-13 191512" src="https://github.com/user-attachments/assets/a81c78e0-36f7-482c-8993-2e415c0e3cb9" />
+
+**Commit Your Changes**
+- Commit with a message:
+*Syntax:*
+git commit -m "Added index.html file
+
+
+<img width="276" height="61" alt="Screenshot 2025-07-13 191709" src="https://github.com/user-attachments/assets/b084129a-0d0d-4949-a188-b224f4602fe5" />
+
+<img width="369" height="235" alt="Screenshot 2025-07-13 201218" src="https://github.com/user-attachments/assets/3075c936-bea1-4115-9c29-6c4da03bc9e5" />
+
+
+ **Push to GitHub**
+- Now push to the GitHub repository:
+*Syntax:*
+git push origin main
+
+
+
+<img width="538" height="429" alt="Screenshot 2025-07-13 121004" src="https://github.com/user-attachments/assets/a7dd118d-4a84-4166-b968-737290e89b25" />
+
+<img width="352" height="104" alt="Screenshot 2025-07-13 194748" src="https://github.com/user-attachments/assets/bf40ded6-2efb-4e83-836d-5441d7db64bf" />
+
+
+**GitHub Access & Personal Access Tokens**
+*Why Use a Personal Access Token?*
+- GitHub removed password authentication for Git. Use tokens for secure authentication instead.
+
+*How to Generate a Personal Access Token:*
+1. Go to GitHub → Settings
+
+2. Open Developer Settings
+
+3. Go to Personal Access Tokens
+
+4. Click Generate new token
+
+5. Set:
+
+- Name of Token
+- Expiration Date
+- Permissions (Read/Write)
+
+
+6. Click Generate
+
+7. Copy the token and keep it safe (you won’t see it again).
+
+
+
+
+
+
