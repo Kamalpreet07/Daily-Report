@@ -1635,12 +1635,13 @@ git push origin main
 
 ***Remote Operations***
 
-- Remote repositories are versions of your project hosted online (e.g., GitHub, GitLab).
-- git remote add origin <URL> – links your local repo to a remote. git push – uploads your commits from local to remote.
-- git pull – fetches and merges changes from the remote to your local branch.
-- git fetch – only downloads changes (doesn’t merge).
-- Keeps your local and remote repositories in sync for collaboration.
 
+| Command                       | Description                                                                                    |
+| ----------------------------- | ---------------------------------------------------------------------------------------------- |
+| `git remote add origin <URL>` | Connects your local project to a remote repository (usually named `origin`)                    |
+| `git push`                    | Sends your local commits to the remote repository                                              |
+| `git pull`                    | Downloads and automatically merges changes from the remote to your current local branch        |
+| `git fetch`                   | Downloads updates from the remote, but does **not** merge them — lets you review changes first |
 
 
 
