@@ -1655,18 +1655,18 @@ GitHub and GitLab are online platforms where developers can store and manage the
 
 *Key Features*
 
-- Cloud-Based Code Storage
+1. Cloud-Based Code Storage
 
 Keep your code safe and accessible from anywhere using Git.
 
-- Team Collaboration
+2. Team Collaboration
 
 Work with others using:
 
 - Pull Requests (GitHub)
 - Merge Requests (GitLab)
 
-- Task Management Tools
+3. Task Management Tools
 
 Report bugs, assign tasks, and manage workflows using:
 
@@ -1674,7 +1674,7 @@ Report bugs, assign tasks, and manage workflows using:
 - Discussions
 - Project boards
 
-- Flexible Access
+4. Flexible Access
 
 Create:
 
@@ -1682,8 +1682,17 @@ Create:
 
 - Private Repositories – for personal or team projects
 
-- Website Hosting
+5. Website Hosting
 
 GitHub lets you publish simple websites using GitHub Pages
 
+***Github Vs Gitlab***a
+
+
+| Feature        | GitHub                          | GitLab                                    |
+| -------------- | ------------------------------- | ----------------------------------------- |
+| Popularity     | Most widely used globally       | Gaining popularity, especially for DevOps |
+| Collaboration  | Pull Requests                   | Merge Requests                            |
+| Built-in CI/CD | External (e.g., GitHub Actions) | Fully integrated                          |
+| Hosting        | Cloud                           | Cloud or self-hosted options              |
 
