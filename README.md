@@ -1652,7 +1652,7 @@ git push origin main
 
 GitHub and GitLab are online platforms where developers can store and manage their Git repositories. They help teams work together, track code changes, and manage entire software projects in one place.
 
-*Key Features*
+*Key Features:*
 
 1. Cloud-Based Code Storage
 
@@ -1685,7 +1685,7 @@ Create:
 
 GitHub lets you publish simple websites using GitHub Pages
 
-***Github Vs Gitlab***a
+***Github Vs Gitlab***
 
 
 | Feature        | GitHub                          | GitLab                                    |
