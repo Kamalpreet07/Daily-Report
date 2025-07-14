@@ -1620,13 +1620,12 @@ git push origin main
 
 *Branching and Merging*
 
-- Branching allows you to work on new features or fixes without affecting the main code.
-- git branch <branch-name> – creates a new branch.
-- git checkout <branch-name> – switches to the branch.
-- git switch <branch-name> – alternative to checkout (recommended in newer versions).
-- git merge <branch-name> – merges the specified branch into the current branch.
-- Helps in parallel development, testing, and safer collaboration.
-
+| Command                      | Purpose                                                          |
+| ---------------------------- | ---------------------------------------------------------------- |
+| `git branch <branch-name>`   | Create a new branch                                              |
+| `git checkout <branch-name>` | Switch to an existing branch                                     |
+| `git switch <branch-name>`   | A simpler alternative to `checkout` (used in newer Git versions) |
+| `git merge <branch-name>`    | Merge another branch into the current one                        |
 
 
 
