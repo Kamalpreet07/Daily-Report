@@ -1447,6 +1447,7 @@ CSS controls the look and feel of the website:
 Git is a powerful distributed version control system that helps developers keep track of changes in their code over time. Whether you're working alone or in a team, Git makes managing versions, collaborating, and backing up code much easier.
 
 **Why Use Version Control?**
+
 Here’s why version control (especially with Git) is essential:
 
 - Track Progress: Git records every change, allowing you to go back to previous versions if needed.
@@ -1458,9 +1459,11 @@ Here’s why version control (especially with Git) is essential:
 - Open Source & Free: Git is completely free and widely supported.
 
 **Git Architecture Explained**
+
 Git works using three main components:
 
 1. Repository (Repo)
+
 - This is where Git tracks everything about your project.
 - Local Repository: Exists on your own computer.
 - Remote Repository: Stored online (e.g., on GitHub, GitLab, Bitbucket) for sharing and backup.
@@ -1469,22 +1472,27 @@ Git works using three main components:
 
 
 **Getting Started with Git (Command Line Guide)**
+
 - Step 1: Set Up Your Project
+
 You can either create a new Git repository or clone an existing one from platforms like GitHub.
 
 
 2. Working Tree (or Working Directory)
+
 - This is the current set of files you see and work on.
 - It reflects the latest version you’ve checked out.
 - You write, edit, and test code here before committing it.
 
 3. Index (Staging Area)
+
 - A temporary area used to prepare changes before committing.
 - You use git add to stage changes.
 - Lets you control exactly what goes into your next commit.
 - Acts like a "review zone" before saving into the repository.
 
 **Cloning a Remote Repository**
+
 - Copy the Repository URL
 
 - Go to the GitHub project page
@@ -1514,7 +1522,9 @@ cd project
 
 
 **Check Git Status**
+
 Use this to see changes or file status:
+
 *syntax*
 
 git status
@@ -1531,7 +1541,9 @@ cd filename
 
 
 **Edit the File**
+
 - Edit using nano or VS Code or Notepad:
+
 *syntax:*
 nano index.html
 
@@ -1548,7 +1560,9 @@ git add index.html
 <img width="301" height="123" alt="Screenshot 2025-07-13 191512" src="https://github.com/user-attachments/assets/a81c78e0-36f7-482c-8993-2e415c0e3cb9" />
 
 **Commit Your Changes**
+
 - Commit with a message:
+
 *Syntax:*
 git commit -m "Added index.html file
 
@@ -1559,7 +1573,9 @@ git commit -m "Added index.html file
 
 
  **Push to GitHub**
+
 - Now push to the GitHub repository:
+
 *Syntax:*
 git push origin main
 
@@ -1571,7 +1587,10 @@ git push origin main
 
 
 **GitHub Access & Personal Access Tokens**
+
+
 *Why Use a Personal Access Token?*
+
 - GitHub removed password authentication for Git. Use tokens for secure authentication instead.
 
 *How to Generate a Personal Access Token:*
@@ -1595,7 +1614,76 @@ git push origin main
 7. Copy the token and keep it safe (you won’t see it again).
 
 
+# Day -14
+
+***Git***
+
+*Branching and Merging*
+
+- Branching allows you to work on new features or fixes without affecting the main code.
+- git branch <branch-name> – creates a new branch.
+- git checkout <branch-name> – switches to the branch.
+- git switch <branch-name> – alternative to checkout (recommended in newer versions).
+- git merge <branch-name> – merges the specified branch into the current branch.
+- Helps in parallel development, testing, and safer collaboration.
 
 
+
+
+<img width="275" height="182" alt="Screenshot 2025-07-13 201455" src="https://github.com/user-attachments/assets/5567acea-2110-4bd9-af43-04895bc048e2" />
+
+
+
+***Remote Operations***
+
+- Remote repositories are versions of your project hosted online (e.g., GitHub, GitLab).
+- git remote add origin <URL> – links your local repo to a remote. git push – uploads your commits from local to remote.
+- git pull – fetches and merges changes from the remote to your local branch.
+- git fetch – only downloads changes (doesn’t merge).
+- Keeps your local and remote repositories in sync for collaboration.
+
+
+
+
+<img width="388" height="232" alt="Screenshot 2025-07-13 201233" src="https://github.com/user-attachments/assets/377be819-1be7-4aec-a520-b8bcb5144714" />
+
+
+
+***Introduction to GitHub & GitLab***
+
+GitHub and GitLab are online platforms where developers can store and manage their Git repositories. They help teams work together, track code changes, and manage entire software projects in one place.
+
+*Key Features*
+
+- Cloud-Based Code Storage
+
+Keep your code safe and accessible from anywhere using Git.
+
+- Team Collaboration
+
+Work with others using:
+
+- Pull Requests (GitHub)
+- Merge Requests (GitLab)
+
+- Task Management Tools
+
+Report bugs, assign tasks, and manage workflows using:
+
+- Issues
+- Discussions
+- Project boards
+
+- Flexible Access
+
+Create:
+
+- Public Repositories – for open-source collaboration
+
+- Private Repositories – for personal or team projects
+
+- Website Hosting
+
+GitHub lets you publish simple websites using GitHub Pages
 
 
